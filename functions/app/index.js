@@ -38,7 +38,7 @@ export default function expressApp(functionName) {
         <div>
         <a href='/.netlify/functions/${functionName}/rutasEncontradas'> /rutasEncontradas </a>
         </div>
-
+        <br/>  
 
         <div>
           <a href='/.netlify/functions/${functionName}/catalogo'> /catalogo </a>
@@ -60,6 +60,8 @@ export default function expressApp(functionName) {
         <a href='/.netlify/functions/${functionName}/catalogo/salud/farmacia'> /catalogo/salud/farmacia </a>
       </div>
 
+      <br/>
+
       <div>
       <a href='/.netlify/functions/${functionName}/catalogo/ocioentretenimiento'> /catalogo/ocioentretenimiento </a>
     </div>
@@ -72,6 +74,8 @@ export default function expressApp(functionName) {
           <a href='/.netlify/functions/${functionName}/catalogo/ocioentretenimiento/parques'> /catalogo/ocioentretenimiento/parques </a>
         </div>
 
+        <br/>
+        
         <div>
         <a href='/.netlify/functions/${functionName}/catalogo/serviciomunicipal'> /catalogo/serviciomunicipal </a>
       </div>
