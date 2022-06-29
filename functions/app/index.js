@@ -43,6 +43,10 @@ export default function expressApp(functionName) {
           <a href='/.netlify/functions/${functionName}/hello'>View /hello route</a>
         </div>
 
+        <div>
+          <a href='/.netlify/functions/${functionName}/catalogo/ocioentretenimiento/centrosocial'>View /ocioentretenimiento/centrosocial route</a>
+        </div>
+
         <br/>
         <br/>
 
@@ -77,6 +81,28 @@ export default function expressApp(functionName) {
         },
       ],
     })
+  })
+
+  router.get('/catalogo/ocioentretenimiento/centrosocial', (req, res) => {
+    res.json(
+      [{
+        "id": 5,
+        "nombre": "Centro social",
+        "subdirecciones": [{
+          "id": "5001",
+          "nombre": "CSoc Calle Alta",
+          "lon": -3.7962913513183594,
+          "lat": 43.47076747496938
+        }, {
+          "id": "5002",
+          "nombre": "CSoc Gral. Dávila",
+          "lon": -3.7962913513183594,
+          "lat": 43.47076747496938
+        }
+        ]
+      }]
+
+    )
   })
 
   router.get('/hello/', function (req, res) {
