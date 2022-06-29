@@ -36,52 +36,52 @@ export default function expressApp(functionName) {
         <p>Choose a route:</p>
 
         <div>
-        <a href='/.netlify/functions/${functionName}/rutasEncontradas'>View /rutasEncontradas route</a>
+        <a href='/.netlify/functions/${functionName}/rutasEncontradas'> /rutasEncontradas </a>
         </div>
 
 
         <div>
-          <a href='/.netlify/functions/${functionName}/catalogo'>View /catalogo route</a>
+          <a href='/.netlify/functions/${functionName}/catalogo'> /catalogo </a>
         </div>
 
         <div>
-          <a href='/.netlify/functions/${functionName}/catalogo/salud'>View /catalogo/salud route</a>
+          <a href='/.netlify/functions/${functionName}/catalogo/salud'> /catalogo/salud </a>
         </div>
 
         <div>
-          <a href='/.netlify/functions/${functionName}/catalogo/salud/centrosalud'>View /catalogo/salud/centrosalud route</a>
+          <a href='/.netlify/functions/${functionName}/catalogo/salud/centrosalud'> /catalogo/salud/centrosalud </a>
         </div>
 
         <div>
-        <a href='/.netlify/functions/${functionName}/catalogo/salud/hospital'>View /catalogo/salud/hospital route</a>
+        <a href='/.netlify/functions/${functionName}/catalogo/salud/hospital'> /catalogo/salud/hospital </a>
       </div>
 
       <div>
-        <a href='/.netlify/functions/${functionName}/catalogo/salud/farmacia'>View /catalogo/salud/farmacia route</a>
+        <a href='/.netlify/functions/${functionName}/catalogo/salud/farmacia'> /catalogo/salud/farmacia </a>
       </div>
 
       <div>
-      <a href='/.netlify/functions/${functionName}/catalogo/ocioentretenimiento'>View /catalogo/ocioentretenimiento route</a>
+      <a href='/.netlify/functions/${functionName}/catalogo/ocioentretenimiento'> /catalogo/ocioentretenimiento </a>
     </div>
 
         <div>
-          <a href='/.netlify/functions/${functionName}/catalogo/ocioentretenimiento/centrosocial'>View /catalogo/ocioentretenimiento/centrosocial route</a>
+          <a href='/.netlify/functions/${functionName}/catalogo/ocioentretenimiento/centrosocial'> /catalogo/ocioentretenimiento/centrosocial </a>
         </div>
 
         <div>
-          <a href='/.netlify/functions/${functionName}/catalogo/ocioentretenimiento/parques'>View /catalogo/ocioentretenimiento/parques route</a>
+          <a href='/.netlify/functions/${functionName}/catalogo/ocioentretenimiento/parques'> /catalogo/ocioentretenimiento/parques </a>
         </div>
 
         <div>
-        <a href='/.netlify/functions/${functionName}/catalogo/serviciomunicipal'>View /catalogo/serviciomunicipal route</a>
+        <a href='/.netlify/functions/${functionName}/catalogo/serviciomunicipal'> /catalogo/serviciomunicipal </a>
       </div>
 
       <div>
-        <a href='/.netlify/functions/${functionName}/catalogo/serviciomunicipal/oficina'>View /catalogo/serviciomunicipal/oficina route</a>
+        <a href='/.netlify/functions/${functionName}/catalogo/serviciomunicipal/oficina'> /catalogo/serviciomunicipal/oficina </a>
       </div>
 
       <div>
-        <a href='/.netlify/functions/${functionName}/catalogo/serviciomunicipal/empresa'>View /catalogo/serviciomunicipal/empresa route</a>
+        <a href='/.netlify/functions/${functionName}/catalogo/serviciomunicipal/empresa'> /catalogo/serviciomunicipal/empresa </a>
       </div>
     
     
