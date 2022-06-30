@@ -75,7 +75,7 @@ export default function expressApp(functionName) {
         </div>
 
         <br/>
-        
+
         <div>
         <a href='/.netlify/functions/${functionName}/catalogo/serviciomunicipal'> /catalogo/serviciomunicipal </a>
       </div>
@@ -108,11 +108,6 @@ export default function expressApp(functionName) {
     })
   })
 
-  router.get('/catalogo/ocioentretenimiento', (req, res) => {
-    res.json(
-
-    )
-  })
 
   router.get('/catalogo/salud', (req, res) => {
     res.json(
