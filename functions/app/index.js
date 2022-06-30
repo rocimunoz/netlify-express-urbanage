@@ -87,6 +87,10 @@ export default function expressApp(functionName) {
       <div>
         <a href='/.netlify/functions/${functionName}/catalogo/serviciomunicipal/empresa'> /catalogo/serviciomunicipal/empresa </a>
       </div>
+
+      <div>
+        <a href='/.netlify/functions/${functionName}/tramos'> /tramos </a>
+      </div>
     
     
       </body>
@@ -573,6 +577,78 @@ export default function expressApp(functionName) {
 
     )
   })
+
+  router.get('/tramos', (req, res) => {
+    res.json(
+      {
+        "Tramos": [{
+          "distancia": "17 m",
+          "dirRelativa": "Inicio",
+          "calle": "Glorieta de Cuatro Caminos",
+          "elementos": [
+            {
+              "texto": "Banco",
+              "cantidad": 2
+
+            },
+            {
+              "texto": "Fuente",
+              "cantidad": 1
+            }
+          ],
+          "lon": -3.82615000094558,
+          "lat": 43.458373413818435
+        }, {
+          "distancia": "823 m",
+          "dirRelativa": "Derecha",
+          "calle": "Calle Vargas",
+          "elementos": [
+            {
+              "texto": "Baño",
+              "cantidad": 1
+
+            }
+          ],
+          "lon": -3.8260453,
+          "lat": 43.4585025
+        }, {
+          "distancia": "28 m",
+          "dirRelativa": "Ligeramente a la derecha",
+          "calle": "Calle Alcázar de Toledo",
+          "lon": -3.8164951,
+          "lat": 43.4609521
+        }, {
+          "distancia": "257 m",
+          "dirRelativa": "Ligeramente a la izquierda",
+          "calle": "Calle de Fernández de Isla",
+          "elementos": [
+            {
+              "texto": "Baño",
+              "cantidad": 1
+
+            }
+          ],
+          "lon": -3.8161741,
+          "lat": 43.4608544
+        }, {
+          "distancia": "8 m",
+          "dirRelativa": "Izquierda",
+          "calle": "Calle del Marqués del Arco",
+          "elementos": [
+            {
+              "texto": "Banco",
+              "cantidad": 1
+
+            }
+          ],
+          "lon": -3.8130171,
+          "lat": 43.4612095
+        }]
+      }
+
+    )
+  })
+
 
   router.get('/hello/', function (req, res) {
     res.send('hello world')
